@@ -1,0 +1,16 @@
+PODS:
+  - TailorSwift (0.1.0)
+
+DEPENDENCIES:
+  - TailorSwift (from `../`)
+
+EXTERNAL SOURCES:
+  TailorSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TailorSwift: 18cd59e10270fa2f863e2812d5dde36a34bde789
+
+PODFILE CHECKSUM: 7231af74d28b6229d0f087940469880d3d73291c
+
+COCOAPODS: 1.2.0

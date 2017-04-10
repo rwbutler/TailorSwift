@@ -1,0 +1,6 @@
+framework module TailorSwift {
+  umbrella header "TailorSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

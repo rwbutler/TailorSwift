@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017E557D5DEFFA8C4033252788142898 /* Pods-TailorSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9954B07D84FB59BA071045C233A9B71 /* Pods-TailorSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1B5D4F57C379C521D286AFBE2D60B6 /* Pods-TailorSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B015977CC1F53EE46DA4B11FC36C002 /* Pods-TailorSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84BA0A7DB0B3AD3B341B37DCAA5653D3 /* Pods-TailorSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1D44AB854762715102D929A7C50C5 /* Pods-TailorSwift_Tests-dummy.m */; };
+		9C42BF5BF42879E51E6264259A9D45BC /* Pods-TailorSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C191929DC5AFD5F46D7895EF77574284 /* Pods-TailorSwift_Example-dummy.m */; };
+		A20CB17214F2210B158C7413FE8F9161 /* DictionaryAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEB423C3C759C36CA5D9D3ADD23EA34 /* DictionaryAdditions.swift */; };
+		A66A3EF6FB3B86BD0703CCDDF7C6354F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AACD349D4624452B08F4EDFAD8A822E0 /* TailorSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E2BDDA434528C155C738E50DBE8BE /* TailorSwift-dummy.m */; };
+		BBC4B02CFC17891B870D309AB650434C /* TailorSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F95B1C84CE24D408BD13FFE91BB75 /* TailorSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C078CBCB23D0BE1B220DF7F907F3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D7DE45D4542E09F6AADBD23EC22D1C80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E4EDFB101E9C134200A8F88C /* CollectionAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDFB0F1E9C134200A8F88C /* CollectionAdditions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		755D4D03AE1D02919761E6D336333AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E5E5AA9F84F738E454C1903024DD3BF;
+			remoteInfo = TailorSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043E2BDDA434528C155C738E50DBE8BE /* TailorSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TailorSwift-dummy.m"; sourceTree = "<group>"; };
+		0682694D7C08C0EF079E860181D98A75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4D2C31C3339FAB0C49ABD983549831 /* TailorSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TailorSwift.xcconfig; sourceTree = "<group>"; };
+		1422C80FA9850DDCDD3C80A03449B367 /* Pods-TailorSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		17C240AF690CAF5260E8A10EC413F30E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAD27D5BCFE1E179B23D5E248A4EC88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C145E8496AC223437BBF4D04813CCBE /* Pods-TailorSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Tests-resources.sh"; sourceTree = "<group>"; };
+		3070083B69C71A8BC0519E8DBDCC8588 /* Pods_TailorSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TailorSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409881F15C7649BFADE6A01D8A29F337 /* Pods-TailorSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Example-resources.sh"; sourceTree = "<group>"; };
+		43360BDEFE6F6698739B3A90488B7E1E /* Pods-TailorSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TailorSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		47B3BCD2292D8196299160698FC2EB23 /* Pods-TailorSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TailorSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		47F52AC9BDAFB8785F04A85EEA27A3EC /* Pods-TailorSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TailorSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5723775F1E3126882FE0FCBF572B54EC /* TailorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TailorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEB423C3C759C36CA5D9D3ADD23EA34 /* DictionaryAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DictionaryAdditions.swift; sourceTree = "<group>"; };
+		5F7851766C54D93898CF965D16AA9636 /* TailorSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TailorSwift-prefix.pch"; sourceTree = "<group>"; };
+		6A25529715CFAF4C6C555DBAEBB7B41D /* Pods-TailorSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TailorSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		86B67A781D73252A947FCF414F39439D /* Pods-TailorSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TailorSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		88A28EF25F3999CC7CD5FE41B68CA955 /* Pods-TailorSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TailorSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		90A1EE72C4B1AC03BC91B531BBD0AF18 /* Pods-TailorSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TailorSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93035B749990DD5F656D90D25D943864 /* TailorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TailorSwift.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B015977CC1F53EE46DA4B11FC36C002 /* Pods-TailorSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TailorSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		A9954B07D84FB59BA071045C233A9B71 /* Pods-TailorSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TailorSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C191929DC5AFD5F46D7895EF77574284 /* Pods-TailorSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TailorSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		C4498F844A123E9300A635F9B22CFD37 /* Pods-TailorSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TailorSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7A1D44AB854762715102D929A7C50C5 /* Pods-TailorSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TailorSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D94F95B1C84CE24D408BD13FFE91BB75 /* TailorSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TailorSwift-umbrella.h"; sourceTree = "<group>"; };
+		E09642A225594E5DCCB8D8B288D690EB /* Pods-TailorSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E191187595E33D8913D7592789BD96E0 /* Pods-TailorSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TailorSwift_Example.modulemap"; sourceTree = "<group>"; };
+		E2BD892078043E1B6976C05BAFB3DA20 /* Pods_TailorSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TailorSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EDFB0F1E9C134200A8F88C /* CollectionAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionAdditions.swift; sourceTree = "<group>"; };
+		E572C2B0B6E4787A3B106EA01AA5C9A9 /* Pods-TailorSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TailorSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		976782054D0586E5DF7484EA27C96BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66A3EF6FB3B86BD0703CCDDF7C6354F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A819885A6C4B2822771679335336D97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C078CBCB23D0BE1B220DF7F907F3BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB83E24732B23CF5A1989119EC1C4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DE45D4542E09F6AADBD23EC22D1C80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E023A54886C5F64D783241F61E623F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5862A1DE3A2EA6E059ED95A94253996E /* Pods-TailorSwift_Example */,
+				DA650EC581F2E58F5A4A146629B5AC38 /* Pods-TailorSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5862A1DE3A2EA6E059ED95A94253996E /* Pods-TailorSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1BAD27D5BCFE1E179B23D5E248A4EC88 /* Info.plist */,
+				E191187595E33D8913D7592789BD96E0 /* Pods-TailorSwift_Example.modulemap */,
+				E572C2B0B6E4787A3B106EA01AA5C9A9 /* Pods-TailorSwift_Example-acknowledgements.markdown */,
+				47F52AC9BDAFB8785F04A85EEA27A3EC /* Pods-TailorSwift_Example-acknowledgements.plist */,
+				C191929DC5AFD5F46D7895EF77574284 /* Pods-TailorSwift_Example-dummy.m */,
+				1422C80FA9850DDCDD3C80A03449B367 /* Pods-TailorSwift_Example-frameworks.sh */,
+				409881F15C7649BFADE6A01D8A29F337 /* Pods-TailorSwift_Example-resources.sh */,
+				9B015977CC1F53EE46DA4B11FC36C002 /* Pods-TailorSwift_Example-umbrella.h */,
+				90A1EE72C4B1AC03BC91B531BBD0AF18 /* Pods-TailorSwift_Example.debug.xcconfig */,
+				86B67A781D73252A947FCF414F39439D /* Pods-TailorSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-TailorSwift_Example";
+			path = "Target Support Files/Pods-TailorSwift_Example";
+			sourceTree = "<group>";
+		};
+		6C33CE81017CC6BC22FD4AAACA6DD8F1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA92F558C0734FAFB1F4F19B880979 /* TailorSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		739609508F7F640B7F0C32184DE45917 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C240AF690CAF5260E8A10EC413F30E /* Info.plist */,
+				93035B749990DD5F656D90D25D943864 /* TailorSwift.modulemap */,
+				0F4D2C31C3339FAB0C49ABD983549831 /* TailorSwift.xcconfig */,
+				043E2BDDA434528C155C738E50DBE8BE /* TailorSwift-dummy.m */,
+				5F7851766C54D93898CF965D16AA9636 /* TailorSwift-prefix.pch */,
+				D94F95B1C84CE24D408BD13FFE91BB75 /* TailorSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TailorSwift";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6C33CE81017CC6BC22FD4AAACA6DD8F1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D03A9999FE5568E3274093B1F9964E52 /* Products */,
+				4E023A54886C5F64D783241F61E623F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BBA92F558C0734FAFB1F4F19B880979 /* TailorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				739609508F7F640B7F0C32184DE45917 /* Support Files */,
+				B93107394962AF0571F96F30690DF005 /* TailorSwift */,
+			);
+			name = TailorSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AD43F1100E7153B47C418928797DFD32 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5EEB423C3C759C36CA5D9D3ADD23EA34 /* DictionaryAdditions.swift */,
+				E4EDFB0F1E9C134200A8F88C /* CollectionAdditions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B93107394962AF0571F96F30690DF005 /* TailorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AD43F1100E7153B47C418928797DFD32 /* Classes */,
+			);
+			path = TailorSwift;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D03A9999FE5568E3274093B1F9964E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BD892078043E1B6976C05BAFB3DA20 /* Pods_TailorSwift_Example.framework */,
+				3070083B69C71A8BC0519E8DBDCC8588 /* Pods_TailorSwift_Tests.framework */,
+				5723775F1E3126882FE0FCBF572B54EC /* TailorSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA650EC581F2E58F5A4A146629B5AC38 /* Pods-TailorSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0682694D7C08C0EF079E860181D98A75 /* Info.plist */,
+				47B3BCD2292D8196299160698FC2EB23 /* Pods-TailorSwift_Tests.modulemap */,
+				C4498F844A123E9300A635F9B22CFD37 /* Pods-TailorSwift_Tests-acknowledgements.markdown */,
+				43360BDEFE6F6698739B3A90488B7E1E /* Pods-TailorSwift_Tests-acknowledgements.plist */,
+				C7A1D44AB854762715102D929A7C50C5 /* Pods-TailorSwift_Tests-dummy.m */,
+				E09642A225594E5DCCB8D8B288D690EB /* Pods-TailorSwift_Tests-frameworks.sh */,
+				2C145E8496AC223437BBF4D04813CCBE /* Pods-TailorSwift_Tests-resources.sh */,
+				A9954B07D84FB59BA071045C233A9B71 /* Pods-TailorSwift_Tests-umbrella.h */,
+				88A28EF25F3999CC7CD5FE41B68CA955 /* Pods-TailorSwift_Tests.debug.xcconfig */,
+				6A25529715CFAF4C6C555DBAEBB7B41D /* Pods-TailorSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-TailorSwift_Tests";
+			path = "Target Support Files/Pods-TailorSwift_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E9CC858139876857839A5C3489C0DA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017E557D5DEFFA8C4033252788142898 /* Pods-TailorSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467931D4E4FB0E9D8C6077E0E6C4C819 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1B5D4F57C379C521D286AFBE2D60B6 /* Pods-TailorSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37A6DCC1BB94EFFD1AC539C0ADA2BDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC4B02CFC17891B870D309AB650434C /* TailorSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E5E5AA9F84F738E454C1903024DD3BF /* TailorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31156081E7DDF06BA01387DEF827568 /* Build configuration list for PBXNativeTarget "TailorSwift" */;
+			buildPhases = (
+				E6638C673CE99DC6CFFE83582686258A /* Sources */,
+				A819885A6C4B2822771679335336D97E /* Frameworks */,
+				F37A6DCC1BB94EFFD1AC539C0ADA2BDB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TailorSwift;
+			productName = TailorSwift;
+			productReference = 5723775F1E3126882FE0FCBF572B54EC /* TailorSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53E3014B34E8C6933C31BA4DBBF9CB2C /* Pods-TailorSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4479EC8087ABE242FDD9A5B021CB7C2 /* Build configuration list for PBXNativeTarget "Pods-TailorSwift_Tests" */;
+			buildPhases = (
+				F85ADDBC9BE6295845683746A49EF750 /* Sources */,
+				BB83E24732B23CF5A1989119EC1C4881 /* Frameworks */,
+				3E9CC858139876857839A5C3489C0DA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TailorSwift_Tests";
+			productName = "Pods-TailorSwift_Tests";
+			productReference = 3070083B69C71A8BC0519E8DBDCC8588 /* Pods_TailorSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B278B5B07D066FEF8ECF3DC1C15CFCF /* Pods-TailorSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1F700AB0FAE2085E767AEB0E80A9FA /* Build configuration list for PBXNativeTarget "Pods-TailorSwift_Example" */;
+			buildPhases = (
+				99E8F68BF607B008E7B61C815272AE2B /* Sources */,
+				976782054D0586E5DF7484EA27C96BCE /* Frameworks */,
+				467931D4E4FB0E9D8C6077E0E6C4C819 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE34860D5E52D391B12AAB4102D8E7A /* PBXTargetDependency */,
+			);
+			name = "Pods-TailorSwift_Example";
+			productName = "Pods-TailorSwift_Example";
+			productReference = E2BD892078043E1B6976C05BAFB3DA20 /* Pods_TailorSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					9B278B5B07D066FEF8ECF3DC1C15CFCF = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D03A9999FE5568E3274093B1F9964E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B278B5B07D066FEF8ECF3DC1C15CFCF /* Pods-TailorSwift_Example */,
+				53E3014B34E8C6933C31BA4DBBF9CB2C /* Pods-TailorSwift_Tests */,
+				4E5E5AA9F84F738E454C1903024DD3BF /* TailorSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E8F68BF607B008E7B61C815272AE2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C42BF5BF42879E51E6264259A9D45BC /* Pods-TailorSwift_Example-dummy.m in Sources */,
+				E4EDFB101E9C134200A8F88C /* CollectionAdditions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6638C673CE99DC6CFFE83582686258A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20CB17214F2210B158C7413FE8F9161 /* DictionaryAdditions.swift in Sources */,
+				AACD349D4624452B08F4EDFAD8A822E0 /* TailorSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85ADDBC9BE6295845683746A49EF750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BA0A7DB0B3AD3B341B37DCAA5653D3 /* Pods-TailorSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CE34860D5E52D391B12AAB4102D8E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TailorSwift;
+			target = 4E5E5AA9F84F738E454C1903024DD3BF /* TailorSwift */;
+			targetProxy = 755D4D03AE1D02919761E6D336333AE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51FC57013B9F08EE67662245DC5588A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4D2C31C3339FAB0C49ABD983549831 /* TailorSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TailorSwift/TailorSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TailorSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TailorSwift/TailorSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TailorSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		973789163B570ADD23ADDCDB82249179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4D2C31C3339FAB0C49ABD983549831 /* TailorSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TailorSwift/TailorSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TailorSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TailorSwift/TailorSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TailorSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B9997F872237C9A27C1248130F428BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B67A781D73252A947FCF414F39439D /* Pods-TailorSwift_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TailorSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TailorSwift_Example/Pods-TailorSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TailorSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A0196DE50DE6BDA899B54D2FBDCEEB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A1EE72C4B1AC03BC91B531BBD0AF18 /* Pods-TailorSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TailorSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TailorSwift_Example/Pods-TailorSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TailorSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD5CE60B3318D4F536A0AE8ED8F2C9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A28EF25F3999CC7CD5FE41B68CA955 /* Pods-TailorSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TailorSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TailorSwift_Tests/Pods-TailorSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TailorSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4FDA736C4127226732F7DAD57746E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A25529715CFAF4C6C555DBAEBB7B41D /* Pods-TailorSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TailorSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TailorSwift_Tests/Pods-TailorSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TailorSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31156081E7DDF06BA01387DEF827568 /* Build configuration list for PBXNativeTarget "TailorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FC57013B9F08EE67662245DC5588A9 /* Debug */,
+				973789163B570ADD23ADDCDB82249179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4479EC8087ABE242FDD9A5B021CB7C2 /* Build configuration list for PBXNativeTarget "Pods-TailorSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CE60B3318D4F536A0AE8ED8F2C9AD /* Debug */,
+				C4FDA736C4127226732F7DAD57746E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1F700AB0FAE2085E767AEB0E80A9FA /* Build configuration list for PBXNativeTarget "Pods-TailorSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0196DE50DE6BDA899B54D2FBDCEEB35 /* Debug */,
+				9B9997F872237C9A27C1248130F428BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

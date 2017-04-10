@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TailorSwift_Example' do
+  pod 'TailorSwift', :path => '../'
+
+  target 'TailorSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
