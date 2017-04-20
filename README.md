@@ -2,6 +2,11 @@
 
 Tailor the Swift language to your needs by choosing from a number of extensions comprising useful functions missing from the core libraries. Available as a Cocoapod for ease of inclusion into your projects.
 
+
+* CollectionAdditions - Map directly to an array of distinct elements instead of converting to an intermediate Set.
+* DictionaryAdditions - Instantiate a Swift dictionary from an array of tuples.
+* UIColorAdditions - UIColor extension for getting a lighter / darker shade of a given colour. [Details](https://medium.com/@rwbutler/uicolor-extension-for-getting-a-lighter-darker-shade-of-a-given-colour-b1a57931f730)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
