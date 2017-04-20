@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import TailorSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Example of using UIColor extension to select a shade of a color
+        self.view.backgroundColor = UIColor.blue.shade(.darkest)
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -17,7 +17,8 @@
 		BBC4B02CFC17891B870D309AB650434C /* TailorSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F95B1C84CE24D408BD13FFE91BB75 /* TailorSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7C078CBCB23D0BE1B220DF7F907F3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D7DE45D4542E09F6AADBD23EC22D1C80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E4EDFB101E9C134200A8F88C /* CollectionAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDFB0F1E9C134200A8F88C /* CollectionAdditions.swift */; };
+		E455516B1E9D191400E8EB4A /* CollectionAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDFB0F1E9C134200A8F88C /* CollectionAdditions.swift */; };
+		E4E039721EA8197E00F7DB62 /* UIColorAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455516C1E9E219B00E8EB4A /* UIColorAdditions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		E09642A225594E5DCCB8D8B288D690EB /* Pods-TailorSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E191187595E33D8913D7592789BD96E0 /* Pods-TailorSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TailorSwift_Example.modulemap"; sourceTree = "<group>"; };
 		E2BD892078043E1B6976C05BAFB3DA20 /* Pods_TailorSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TailorSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E455516C1E9E219B00E8EB4A /* UIColorAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorAdditions.swift; sourceTree = "<group>"; };
 		E4EDFB0F1E9C134200A8F88C /* CollectionAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionAdditions.swift; sourceTree = "<group>"; };
 		E572C2B0B6E4787A3B106EA01AA5C9A9 /* Pods-TailorSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TailorSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +179,7 @@
 			children = (
 				5EEB423C3C759C36CA5D9D3ADD23EA34 /* DictionaryAdditions.swift */,
 				E4EDFB0F1E9C134200A8F88C /* CollectionAdditions.swift */,
+				E455516C1E9E219B00E8EB4A /* UIColorAdditions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -346,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C42BF5BF42879E51E6264259A9D45BC /* Pods-TailorSwift_Example-dummy.m in Sources */,
-				E4EDFB101E9C134200A8F88C /* CollectionAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E455516B1E9D191400E8EB4A /* CollectionAdditions.swift in Sources */,
+				E4E039721EA8197E00F7DB62 /* UIColorAdditions.swift in Sources */,
 				A20CB17214F2210B158C7413FE8F9161 /* DictionaryAdditions.swift in Sources */,
 				AACD349D4624452B08F4EDFAD8A822E0 /* TailorSwift-dummy.m in Sources */,
 			);
