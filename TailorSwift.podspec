@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TailorSwift'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Tailor the Swift language to your needs by choosing from a number of extensions comprising useful functions missing in the core libraries.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Tailor the Swift language to your needs by choosing from a number of extensions comprising useful functions missing in the core libraries.
+Tailor the Swift language to your needs by choosing from a number of extensions comprising useful functions missing from the core libraries.
+* CollectionAdditions - Map directly to an array of distinct elements instead of converting to an intermediate Set.
+* DictionaryAdditions - Instantiate a Swift dictionary from an array of tuples.
+* UIColorAdditions - UIColor extension for getting a lighter / darker shade of a given colour.
                        DESC
 
   s.homepage         = 'https://github.com/rwbutler/TailorSwift'
