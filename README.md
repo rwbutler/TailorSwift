@@ -1,4 +1,9 @@
-# TailorSwift
+![TailorSwift](TailorSwift.png)
+
+[![CI Status](http://img.shields.io/travis/rwbutler/TailorSwift.svg?style=flat)](https://travis-ci.org/rwbutler/TailorSwift)
+[![Version](https://img.shields.io/cocoapods/v/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
+[![License](https://img.shields.io/cocoapods/l/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
+[![Platform](https://img.shields.io/cocoapods/p/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
 
 Tailor the Swift language to your needs by choosing from a number of extensions comprising useful functions missing from the core libraries. Available as a Cocoapod for ease of inclusion into your projects.
 
@@ -28,4 +33,4 @@ Ross Butler
 
 ## License
 
-TailorSwift is available under the MIT license. See the LICENSE file for more info.
+TailorSwift is available under the MIT license. See the [LICENSE file](./LICENSE) for more info.
