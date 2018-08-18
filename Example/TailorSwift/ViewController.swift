@@ -13,10 +13,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Example of using UIColor extension to select a shade of a color
         self.view.backgroundColor = UIColor.blue.shade(.darkest)
-        
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,4 +25,3 @@ class ViewController: UIViewController {
     }
 
 }
-

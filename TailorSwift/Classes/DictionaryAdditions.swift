@@ -9,21 +9,21 @@
 import Foundation
 
 extension Dictionary {
-    
+
     public init?(_ tuples: [(key: Key?, value: Value?)]?) {
         guard let tuples = tuples else {
             return nil
         }
         self.init(tuples)
     }
-    
+
     public init(_ tuples: [Element]) {
         self.init()
         for (key, value) in tuples {
             updateValue(value, forKey: key)
         }
     }
-    
+
     public init(_ tuples: [(key: Key?, value: Value?)]) {
         self.init()
         for (key, value) in tuples {
@@ -32,5 +32,5 @@ extension Dictionary {
             }
         }
     }
-    
+
 }
