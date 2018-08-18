@@ -1,4 +1,4 @@
-![TailorSwift](TailorSwift.png)
+![TailorSwift](https://github.com/rwbutler/TailorSwift/raw/master/TailorSwift.png)
 
 [![CI Status](http://img.shields.io/travis/rwbutler/TailorSwift.svg?style=flat)](https://travis-ci.org/rwbutler/TailorSwift)
 [![Version](https://img.shields.io/cocoapods/v/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
