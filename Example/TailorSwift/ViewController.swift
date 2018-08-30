@@ -11,17 +11,19 @@ import TailorSwift
 
 class ViewController: UIViewController {
 
+    // MARK: Outlets
+    @IBOutlet weak var titleLabel: UILabel!
+
+    // MARK: View life cycle
     override func viewDidLoad() {
-        super.viewDidLoad()
+
+        // Example of trimming attributed text
+        let originalString = "          \n       TailorSwift          \n\n\n           "
+        let trimmedString = originalString.trimmingCharacters(in: .whitespacesAndNewlines)
+        titleLabel.attributedText = NSAttributedString(string: trimmedString)
 
         // Example of using UIColor extension to select a shade of a color
         self.view.backgroundColor = UIColor.blue.shade(.darkest)
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }

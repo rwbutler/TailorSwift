@@ -1,6 +1,6 @@
 //
 //  ColorAdditions.swift
-//  Pods
+//  TailorSwift
 //
 //  Created by Ross Butler on 4/12/17.
 //

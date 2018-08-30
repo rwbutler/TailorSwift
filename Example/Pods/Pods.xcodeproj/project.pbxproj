@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		017E557D5DEFFA8C4033252788142898 /* Pods-TailorSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9954B07D84FB59BA071045C233A9B71 /* Pods-TailorSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13BDF7922138826200D2D337 /* NSAttributedStringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */; };
 		3D1B5D4F57C379C521D286AFBE2D60B6 /* Pods-TailorSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B015977CC1F53EE46DA4B11FC36C002 /* Pods-TailorSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84BA0A7DB0B3AD3B341B37DCAA5653D3 /* Pods-TailorSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1D44AB854762715102D929A7C50C5 /* Pods-TailorSwift_Tests-dummy.m */; };
 		9C42BF5BF42879E51E6264259A9D45BC /* Pods-TailorSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C191929DC5AFD5F46D7895EF77574284 /* Pods-TailorSwift_Example-dummy.m */; };
@@ -35,6 +36,7 @@
 		043E2BDDA434528C155C738E50DBE8BE /* TailorSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TailorSwift-dummy.m"; sourceTree = "<group>"; };
 		0682694D7C08C0EF079E860181D98A75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F4D2C31C3339FAB0C49ABD983549831 /* TailorSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TailorSwift.xcconfig; sourceTree = "<group>"; };
+		13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringAdditions.swift; sourceTree = "<group>"; };
 		1422C80FA9850DDCDD3C80A03449B367 /* Pods-TailorSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		17C240AF690CAF5260E8A10EC413F30E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BAD27D5BCFE1E179B23D5E248A4EC88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				5EEB423C3C759C36CA5D9D3ADD23EA34 /* DictionaryAdditions.swift */,
 				E4EDFB0F1E9C134200A8F88C /* CollectionAdditions.swift */,
 				E455516C1E9E219B00E8EB4A /* UIColorAdditions.swift */,
+				13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -324,7 +327,7 @@
 						LastSwiftMigration = 0940;
 					};
 					9B278B5B07D066FEF8ECF3DC1C15CFCF = {
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -370,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C42BF5BF42879E51E6264259A9D45BC /* Pods-TailorSwift_Example-dummy.m in Sources */,
+				13BDF7922138826200D2D337 /* NSAttributedStringAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

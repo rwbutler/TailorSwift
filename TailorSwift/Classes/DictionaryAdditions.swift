@@ -1,6 +1,6 @@
 //
 //  DictionaryAdditions.swift
-//  Pods
+//  TailorSwift
 //
 //  Created by Ross Butler on 4/1/17.
 //
