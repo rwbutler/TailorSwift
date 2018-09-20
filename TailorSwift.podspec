@@ -1,7 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'TailorSwift'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'Tailor the Swift language to your needs by choosing from useful extensions missing from the Swift Core Libraries / Foundation framework.'
+  s.swift_version    = '4.2'
   s.description      = <<-DESC
 Tailor the Swift language to your needs by choosing from a number of extensions comprising useful functions missing from the core libraries.
 * CollectionAdditions - Map directly to an array of distinct elements instead of converting to an intermediate Set.
