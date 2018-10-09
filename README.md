@@ -12,6 +12,7 @@ Tailor the Swift language to your needs by choosing from a number of extensions 
 * CollectionAdditions - Map directly to an array of distinct elements instead of converting to an intermediate Set.
 * DictionaryAdditions - Instantiate a Swift dictionary from an array of tuples.
 * NSAttributedStringAdditions - Trim attributed strings in the same way as would a regular string. [Details](https://medium.com/@rwbutler/trimming-nsattributedstring-b8c1e58ac0a)
+* UIButtonAdditions - UIButton extension for debouncing button taps.
 * UIColorAdditions - UIColor extension for getting a lighter / darker shade of a given colour. [Details](https://medium.com/@rwbutler/uicolor-extension-for-getting-a-lighter-darker-shade-of-a-given-colour-b1a57931f730)
 
 ## Example
