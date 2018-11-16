@@ -6,7 +6,7 @@
 //
 
 extension UIButton {
-    
+
     /// Default debounce delay for UIButton taps. Allows delay to be updated globally.
     static var debounceDelay: Double = 0.5
 

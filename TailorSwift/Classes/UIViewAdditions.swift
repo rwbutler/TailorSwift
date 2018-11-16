@@ -8,10 +8,10 @@
 import Foundation
 
 extension UIView {
-    
+
     /// Default corner radius
     static var cornerRadius: CGFloat = 10.0
-    
+
     /// Rounds specified corners with the given corner radius value.
     func roundCorners(_ corners: UIRectCorner = .allCorners, radius: CGFloat = UIView.cornerRadius) {
         if #available(iOS 11.0, *) {
@@ -29,5 +29,5 @@ extension UIView {
             layer.mask = mask
         }
     }
-    
+
 }

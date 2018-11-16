@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		017E557D5DEFFA8C4033252788142898 /* Pods-TailorSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9954B07D84FB59BA071045C233A9B71 /* Pods-TailorSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		132277A2216CBD4100B246F1 /* UIButtonAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132277A1216CBD4100B246F1 /* UIButtonAdditions.swift */; };
+		133FDEA3219F2B0000A157EA /* IntAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FDEA2219F2B0000A157EA /* IntAdditions.swift */; };
 		13BDF7922138826200D2D337 /* NSAttributedStringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */; };
 		13E09A8C216E163400E5796E /* UIViewAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E09A8B216E163400E5796E /* UIViewAdditions.swift */; };
 		3D1B5D4F57C379C521D286AFBE2D60B6 /* Pods-TailorSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B015977CC1F53EE46DA4B11FC36C002 /* Pods-TailorSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +40,7 @@
 		0682694D7C08C0EF079E860181D98A75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F4D2C31C3339FAB0C49ABD983549831 /* TailorSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TailorSwift.xcconfig; sourceTree = "<group>"; };
 		132277A1216CBD4100B246F1 /* UIButtonAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonAdditions.swift; sourceTree = "<group>"; };
+		133FDEA2219F2B0000A157EA /* IntAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntAdditions.swift; sourceTree = "<group>"; };
 		13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringAdditions.swift; sourceTree = "<group>"; };
 		13E09A8B216E163400E5796E /* UIViewAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAdditions.swift; sourceTree = "<group>"; };
 		1422C80FA9850DDCDD3C80A03449B367 /* Pods-TailorSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */,
 				132277A1216CBD4100B246F1 /* UIButtonAdditions.swift */,
 				13E09A8B216E163400E5796E /* UIViewAdditions.swift */,
+				133FDEA2219F2B0000A157EA /* IntAdditions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				13E09A8C216E163400E5796E /* UIViewAdditions.swift in Sources */,
 				9C42BF5BF42879E51E6264259A9D45BC /* Pods-TailorSwift_Example-dummy.m in Sources */,
 				13BDF7922138826200D2D337 /* NSAttributedStringAdditions.swift in Sources */,
+				133FDEA3219F2B0000A157EA /* IntAdditions.swift in Sources */,
 				132277A2216CBD4100B246F1 /* UIButtonAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
