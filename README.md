@@ -3,6 +3,7 @@
 [![CI Status](http://img.shields.io/travis/rwbutler/TailorSwift.svg?style=flat)](https://travis-ci.org/rwbutler/TailorSwift)
 [![Version](https://img.shields.io/cocoapods/v/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e57106353203630f034c/maintainability)](https://codeclimate.com/github/rwbutler/TailorSwift/maintainability)
 [![License](https://img.shields.io/cocoapods/l/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
 [![Platform](https://img.shields.io/cocoapods/p/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
 

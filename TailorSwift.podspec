@@ -1,12 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = 'TailorSwift'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'Tailor the Swift language to your needs by choosing from useful extensions missing from the Swift Core Libraries / Foundation framework.'
   s.swift_version    = '4.2'
   s.description      = <<-DESC
 Tailor the Swift language to your needs by choosing from a number of extensions comprising useful functions missing from the core libraries.
 * CollectionAdditions - Map directly to an array of distinct elements instead of converting to an intermediate Set.
 * DictionaryAdditions - Instantiate a Swift dictionary from an array of tuples.
+* IntAdditions - Use isZero property rather than == 0 for more readable syntax.
 * UIButtonAdditions - Debounce UIButton taps.
 * UIColorAdditions - UIColor extension for getting a lighter / darker shade of a given colour.
 * UIViewAdditions - Round view corners individually.

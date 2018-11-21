@@ -10,6 +10,7 @@
 		017E557D5DEFFA8C4033252788142898 /* Pods-TailorSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9954B07D84FB59BA071045C233A9B71 /* Pods-TailorSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		132277A2216CBD4100B246F1 /* UIButtonAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132277A1216CBD4100B246F1 /* UIButtonAdditions.swift */; };
 		133FDEA3219F2B0000A157EA /* IntAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FDEA2219F2B0000A157EA /* IntAdditions.swift */; };
+		138FE04721A5C271005C9B76 /* RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138FE04521A5C237005C9B76 /* RGBA.swift */; };
 		13BDF7922138826200D2D337 /* NSAttributedStringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */; };
 		13E09A8C216E163400E5796E /* UIViewAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E09A8B216E163400E5796E /* UIViewAdditions.swift */; };
 		3D1B5D4F57C379C521D286AFBE2D60B6 /* Pods-TailorSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B015977CC1F53EE46DA4B11FC36C002 /* Pods-TailorSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,7 @@
 		0F4D2C31C3339FAB0C49ABD983549831 /* TailorSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TailorSwift.xcconfig; sourceTree = "<group>"; };
 		132277A1216CBD4100B246F1 /* UIButtonAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonAdditions.swift; sourceTree = "<group>"; };
 		133FDEA2219F2B0000A157EA /* IntAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntAdditions.swift; sourceTree = "<group>"; };
+		138FE04521A5C237005C9B76 /* RGBA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBA.swift; sourceTree = "<group>"; };
 		13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringAdditions.swift; sourceTree = "<group>"; };
 		13E09A8B216E163400E5796E /* UIViewAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAdditions.swift; sourceTree = "<group>"; };
 		1422C80FA9850DDCDD3C80A03449B367 /* Pods-TailorSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				132277A1216CBD4100B246F1 /* UIButtonAdditions.swift */,
 				13E09A8B216E163400E5796E /* UIViewAdditions.swift */,
 				133FDEA2219F2B0000A157EA /* IntAdditions.swift */,
+				138FE04521A5C237005C9B76 /* RGBA.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E455516B1E9D191400E8EB4A /* CollectionAdditions.swift in Sources */,
+				138FE04721A5C271005C9B76 /* RGBA.swift in Sources */,
 				E4E039721EA8197E00F7DB62 /* UIColorAdditions.swift in Sources */,
 				A20CB17214F2210B158C7413FE8F9161 /* DictionaryAdditions.swift in Sources */,
 				AACD349D4624452B08F4EDFAD8A822E0 /* TailorSwift-dummy.m in Sources */,
