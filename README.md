@@ -29,19 +29,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 [CocoaPods](http://cocoapods.org) is a dependency manager which integrates dependencies into your Xcode workspace. To install it using [RubyGems](https://rubygems.org/) run:
 
-```
+```bash
 gem install cocoapods
 ```
 
 To install TailorSwift using Cocoapods, simply add the following line to your Podfile:
 
-```
+```ruby
 pod "TailorSwift"
 ```
 
 Then run the command:
 
-```
+```bash
 pod install
 ```
 
@@ -51,14 +51,14 @@ For more information [see here](https://cocoapods.org/#getstarted).
 
 Carthage is a dependency manager which produces a binary for manual integration into your project. It can be installed via [Homebrew](https://brew.sh/) using the commands:
 
-```
+```bash
 brew update
 brew install carthage
 ```
 
 In order to integrate TailorSwift into your project via Carthage, add the following line to your project's Cartfile:
 
-```
+```ogdl
 github "rwbutler/TailorSwift"
 ```
 
