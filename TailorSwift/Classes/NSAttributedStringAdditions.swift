@@ -6,6 +6,9 @@
 //
 
 extension NSAttributedString {
+
+    /// Trims any characters in the specified `CharacterSet` from the ends of the `NSAttributedString`.
+    /// returns: A new `NSAttributedString` with the characters in the specified `CharacterSet` trimmed.
     public func trimmingCharacters(in characterSet: CharacterSet) -> NSAttributedString {
         // swiftlint:disable:next force_cast
         let result = self.mutableCopy() as! NSMutableAttributedString
@@ -22,4 +25,5 @@ extension NSAttributedString {
         }
         return result
     }
+
 }

@@ -17,6 +17,12 @@ extension Collection {
             "invalid Collection: count differed in successive traversals")
     }
 
+    /// Whether or not the collection is __not__ empty.
+    /// returns: A `Bool` indicating whether or not the collection is __not__ empty.
+    public var isNotEmpty: Bool {
+        return !isEmpty
+    }
+
     public func mapDistinct<T: Equatable>(_ transform: (Iterator.Element) throws -> T
         ) rethrows -> [T] {
 
