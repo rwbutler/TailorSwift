@@ -10,6 +10,7 @@
 		017E557D5DEFFA8C4033252788142898 /* Pods-TailorSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9954B07D84FB59BA071045C233A9B71 /* Pods-TailorSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		132277A2216CBD4100B246F1 /* UIButtonAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132277A1216CBD4100B246F1 /* UIButtonAdditions.swift */; };
 		133FDEA3219F2B0000A157EA /* IntAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FDEA2219F2B0000A157EA /* IntAdditions.swift */; };
+		135A678421F89141004B4C54 /* UITextFieldAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A678221F89137004B4C54 /* UITextFieldAdditions.swift */; };
 		135F81D921F761E50091357F /* StringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F81D721F761E20091357F /* StringAdditions.swift */; };
 		138FE04721A5C271005C9B76 /* RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138FE04521A5C237005C9B76 /* RGBA.swift */; };
 		13BDF7922138826200D2D337 /* NSAttributedStringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */; };
@@ -43,6 +44,7 @@
 		0F4D2C31C3339FAB0C49ABD983549831 /* TailorSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TailorSwift.xcconfig; sourceTree = "<group>"; };
 		132277A1216CBD4100B246F1 /* UIButtonAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonAdditions.swift; sourceTree = "<group>"; };
 		133FDEA2219F2B0000A157EA /* IntAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntAdditions.swift; sourceTree = "<group>"; };
+		135A678221F89137004B4C54 /* UITextFieldAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldAdditions.swift; sourceTree = "<group>"; };
 		135F81D721F761E20091357F /* StringAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAdditions.swift; sourceTree = "<group>"; };
 		138FE04521A5C237005C9B76 /* RGBA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBA.swift; sourceTree = "<group>"; };
 		13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringAdditions.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				133FDEA2219F2B0000A157EA /* IntAdditions.swift */,
 				138FE04521A5C237005C9B76 /* RGBA.swift */,
 				135F81D721F761E20091357F /* StringAdditions.swift */,
+				135A678221F89137004B4C54 /* UITextFieldAdditions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				E455516B1E9D191400E8EB4A /* CollectionAdditions.swift in Sources */,
 				138FE04721A5C271005C9B76 /* RGBA.swift in Sources */,
 				135F81D921F761E50091357F /* StringAdditions.swift in Sources */,
+				135A678421F89141004B4C54 /* UITextFieldAdditions.swift in Sources */,
 				E4E039721EA8197E00F7DB62 /* UIColorAdditions.swift in Sources */,
 				A20CB17214F2210B158C7413FE8F9161 /* DictionaryAdditions.swift in Sources */,
 				AACD349D4624452B08F4EDFAD8A822E0 /* TailorSwift-dummy.m in Sources */,
