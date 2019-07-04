@@ -19,17 +19,17 @@ extension Collection {
     }
     
     public func uniqueMap<T: Equatable>(_ transform: (Iterator.Element) throws -> T) rethrows -> [T] {
-        
+
         let count: Int = numericCast(self.count)
         if isEmpty {
             return []
         }
-        
+
         var result = ContiguousArray<T>()
         result.reserveCapacity(count)
-        
+
         var i = self.startIndex
-        
+
         for _ in 0..<count {
             let transformed = try transform(self[i])
             if !result.contains(where: { $0 == transformed }) {

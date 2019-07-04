@@ -6,7 +6,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/e57106353203630f034c/maintainability)](https://codeclimate.com/github/rwbutler/TailorSwift/maintainability)
 [![License](https://img.shields.io/cocoapods/l/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
 [![Platform](https://img.shields.io/cocoapods/p/TailorSwift.svg?style=flat)](http://cocoapods.org/pods/TailorSwift)
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://swift.org/)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org/)
 
 Tailor the Swift language to your needs by choosing from a number of extensions comprising useful functions missing from the core libraries. Available as a Cocoapod for ease of inclusion into your projects.
 

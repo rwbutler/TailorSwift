@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TailorSwift'
-  s.version          = '1.1.1'
+  s.version          = '2.0.0'
   s.summary          = 'Tailor the Swift language to your needs by choosing from useful extensions missing from the Swift Core Libraries / Foundation framework.'
   s.swift_version    = '4.2'
   s.description      = <<-DESC
