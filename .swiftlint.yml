@@ -1,0 +1,6 @@
+disabled_rules:
+  - trailing_whitespace
+variable_name:
+  excluded:
+    - i
+reporter: "xcode"
