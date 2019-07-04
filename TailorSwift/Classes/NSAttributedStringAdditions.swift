@@ -5,6 +5,8 @@
 //  Created by Ross Butler on 8/30/18.
 //
 
+import Foundation
+
 extension NSAttributedString {
 
     /// Trims any characters in the specified `CharacterSet` from the ends of the `NSAttributedString`.

@@ -5,6 +5,8 @@
 //  Created by Ross Butler on 10/9/18.
 //
 
+import UIKit
+
 extension UIButton {
 
     /// Default debounce delay for UIButton taps. Allows delay to be updated globally.

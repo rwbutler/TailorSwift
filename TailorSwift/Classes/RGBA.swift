@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// Represents a color defined in terms of its RGBA components.
 struct RGBA {
