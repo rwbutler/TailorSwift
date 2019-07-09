@@ -14,5 +14,11 @@ extension String {
     public var isNotEmpty: Bool {
         return !isEmpty
     }
+    
+    /// Case insensitive comparison of Strings.
+    public func equalsIgnoreCase(_ rhs: String) -> Bool {
+        let lhs = self.lowercased()
+        return lhs == rhs.lowercased()
+    }
 
 }
