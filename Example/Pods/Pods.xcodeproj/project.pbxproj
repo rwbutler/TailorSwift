@@ -15,6 +15,7 @@
 		138FE04721A5C271005C9B76 /* RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138FE04521A5C237005C9B76 /* RGBA.swift */; };
 		13BDF7922138826200D2D337 /* NSAttributedStringAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */; };
 		13E09A8C216E163400E5796E /* UIViewAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E09A8B216E163400E5796E /* UIViewAdditions.swift */; };
+		13FACAB22371CA56000FACB9 /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FACAB02371BD19000FACB9 /* PriceFormatter.swift */; };
 		3D1B5D4F57C379C521D286AFBE2D60B6 /* Pods-TailorSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B015977CC1F53EE46DA4B11FC36C002 /* Pods-TailorSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84BA0A7DB0B3AD3B341B37DCAA5653D3 /* Pods-TailorSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1D44AB854762715102D929A7C50C5 /* Pods-TailorSwift_Tests-dummy.m */; };
 		9C42BF5BF42879E51E6264259A9D45BC /* Pods-TailorSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C191929DC5AFD5F46D7895EF77574284 /* Pods-TailorSwift_Example-dummy.m */; };
@@ -49,6 +50,7 @@
 		138FE04521A5C237005C9B76 /* RGBA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBA.swift; sourceTree = "<group>"; };
 		13BDF7912138826200D2D337 /* NSAttributedStringAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringAdditions.swift; sourceTree = "<group>"; };
 		13E09A8B216E163400E5796E /* UIViewAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAdditions.swift; sourceTree = "<group>"; };
+		13FACAB02371BD19000FACB9 /* PriceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFormatter.swift; sourceTree = "<group>"; };
 		1422C80FA9850DDCDD3C80A03449B367 /* Pods-TailorSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TailorSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		17C240AF690CAF5260E8A10EC413F30E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BAD27D5BCFE1E179B23D5E248A4EC88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				138FE04521A5C237005C9B76 /* RGBA.swift */,
 				135F81D721F761E20091357F /* StringAdditions.swift */,
 				135A678221F89137004B4C54 /* UITextFieldAdditions.swift */,
+				13FACAB02371BD19000FACB9 /* PriceFormatter.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,7 +348,7 @@
 						LastSwiftMigration = 1020;
 					};
 					9B278B5B07D066FEF8ECF3DC1C15CFCF = {
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -409,6 +412,7 @@
 				135A678421F89141004B4C54 /* UITextFieldAdditions.swift in Sources */,
 				E4E039721EA8197E00F7DB62 /* UIColorAdditions.swift in Sources */,
 				A20CB17214F2210B158C7413FE8F9161 /* DictionaryAdditions.swift in Sources */,
+				13FACAB22371CA56000FACB9 /* PriceFormatter.swift in Sources */,
 				AACD349D4624452B08F4EDFAD8A822E0 /* TailorSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,8 +457,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.1.0;
 				MODULEMAP_FILE = "Target Support Files/TailorSwift/TailorSwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.TailorSwift;
 				PRODUCT_NAME = TailorSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -540,8 +546,10 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.1.0;
 				MODULEMAP_FILE = "Target Support Files/TailorSwift/TailorSwift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwbutler.TailorSwift;
 				PRODUCT_NAME = TailorSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -583,7 +591,7 @@
 				PRODUCT_NAME = Pods_TailorSwift_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -677,7 +685,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

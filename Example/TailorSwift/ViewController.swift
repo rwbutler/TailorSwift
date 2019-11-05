@@ -18,6 +18,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
 
         // Example of trimming attributed text
+        let price: Double = 2.111111
+        let priceFormatter = PriceFormatter()
+        if let formattedPrice = priceFormatter.string(from: price) {
+            print(formattedPrice)
+        }
         let originalString = "          \n       TailorSwift          \n\n\n           "
         let trimmedString = originalString.trimmingCharacters(in: .whitespacesAndNewlines)
         titleLabel.attributedText = NSAttributedString(string: trimmedString)
