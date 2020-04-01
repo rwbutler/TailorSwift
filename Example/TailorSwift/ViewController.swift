@@ -12,6 +12,7 @@ import TailorSwift
 class ViewController: UIViewController {
 
     // MARK: Outlets
+    @IBOutlet weak var debouncedButton: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
 
     // MARK: View life cycle
@@ -29,6 +30,11 @@ class ViewController: UIViewController {
 
         // Example of using UIColor extension to select a shade of a color
         self.view.backgroundColor = UIColor.blue.shade(.darkest)
+    }
+
+    @IBAction func buttonTapped(_ button: UIButton) {
+        debouncedButton.debounce()
+        print("Button tapped!")
     }
 
 }
